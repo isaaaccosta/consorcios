@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consórcio com Especialista • Simulação no WhatsApp</title>
+  <meta name="description" content="Consórcio para carro, moto, imóvel e serviços. Sem juros. Atendimento direto com simulação no WhatsApp e local físico." />
+  <meta name="theme-color" content="#2E7D6F" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="Ir para o início">
+        <span class="brand__dot"></span>
+        <span class="brand__name">Consórcio com Especialista</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#tipos">Tipos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#local">Local</a>
+        <a href="#contato">Simular</a>
+        <a class="nav__cta" id="navCta" href="#">WhatsApp</a>
+      </nav>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Floating WhatsApp -->
+  <a class="waFloat" id="waFloat" href="#" aria-label="Chamar no WhatsApp">
+    <span class="waFloat__icon">✆</span>
+    <span class="waFloat__text">WhatsApp</span>
+  </a>
+
+  <!-- HERO -->
+  <main id="home" class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <span class="pill">💚 Sem juros • Planejamento • Atendimento direto</span>
+
+        <h1>Consórcio do jeito certo,<br/>com simulação rápida no WhatsApp</h1>
+
+        <p>
+          Consórcio para <b>carro</b>, <b>moto</b>, <b>imóvel</b> e <b>serviços</b>.
+          Você escolhe o valor da carta e o prazo. Eu te explico tudo sem enrolação.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" id="heroCta" href="#">Simular no WhatsApp</a>
+          <a class="btn btn--ghost" href="#tipos">Ver tipos</a>
+          <a class="btn btn--ghost" id="mapsHeroBtn" href="#">Como chegar</a>
+        </div>
+
+        <div class="hero__badges">
+          <div class="badge">
+            <div class="badge__title">💸 Sem juros</div>
+            <div class="badge__desc">Sem juros como financiamento (há taxa do plano)</div>
+          </div>
+          <div class="badge">
+            <div class="badge__title">🏷️ Poder de compra</div>
+            <div class="badge__desc">Carta contemplada = negociação à vista</div>
+          </div>
+          <div class="badge">
+            <div class="badge__title">📍 Local físico</div>
+            <div class="badge__desc">Atendimento presencial + WhatsApp</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD VENDEDOR -->
+      <aside class="hero__card">
+        <div class="card profileCard">
+          <div class="profileTop">
+            <img class="profileImg" src="assets/vendedor.jpg" alt="Foto do vendedor de consórcio" />
+            <div class="profileInfo">
+              <div class="profileName" id="sellerName">Seu Nome Aqui</div>
+              <div class="profileRole">Especialista em Consórcio</div>
+              <div class="profileMini">Seg–Sáb • 09:00–18:00</div>
+            </div>
+          </div>
+
+          <div class="card__sep"></div>
+
+          <div class="card__title">Eu te ajudo com:</div>
+          <ul class="list">
+            <li>📌 Escolher o tipo e valor da carta</li>
+            <li>📊 Simular parcelas e prazos</li>
+            <li>🏆 Estratégia de contemplação (sorteio/lance)</li>
+            <li>🤝 Acompanhamento até a compra</li>
+          </ul>
+
+          <div class="card__sep"></div>
+
+          <div class="miniGrid">
+            <a class="btn btn--primary" id="cardCta" href="#">Falar no WhatsApp</a>
+            <a class="btn btn--ghost" id="mapsCardBtn" href="#">Abrir Maps</a>
+          </div>
+
+          <div class="smallNote">* Regras, taxas e prazos variam por administradora/grupo.</div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- BENEFÍCIOS -->
+  <section id="beneficios" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Benefícios do consórcio</h2>
+        <p>Pra quem quer planejar a compra sem pagar juros de financiamento.</p>
+      </div>
+
+      <div class="grid3">
+        <article class="feature">
+          <div class="feature__icon">✅</div>
+          <h3>Sem juros</h3>
+          <p>Geralmente sem juros como financiamento. Existe taxa administrativa do plano.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">🧠</div>
+          <h3>Planejamento</h3>
+          <p>Parcelas previsíveis, prazos flexíveis e organização financeira.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">🏆</div>
+          <h3>Contemplação</h3>
+          <p>Sorteio mensal e possibilidade de antecipar com lance (estratégia).</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">🏷️</div>
+          <h3>Negociação à vista</h3>
+          <p>Com carta contemplada, você compra e pode conseguir desconto.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">🔁</div>
+          <h3>Flexibilidade</h3>
+          <p>Conforme regras do plano, dá pra escolher dentro da categoria.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">🤝</div>
+          <h3>Suporte humano</h3>
+          <p>Atendimento direto no WhatsApp e presencial no local físico.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIPOS -->
+  <section id="tipos" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Tipos de consórcio</h2>
+        <p>Escolha um tipo e clique em “Simular”.</p>
+      </div>
+
+      <div class="grid3">
+        <article class="typeCard">
+          <div class="typeCard__top">
+            <div class="typeCard__icon">🚗</div>
+            <h3>Carro</h3>
+          </div>
+          <p>Para carro novo/usado (conforme regras do plano).</p>
+          <button class="chip" data-tipo="Carro">Simular</button>
+        </article>
+
+        <article class="typeCard">
+          <div class="typeCard__top">
+            <div class="typeCard__icon">🏍️</div>
+            <h3>Moto</h3>
+          </div>
+          <p>Ótimo pra trocar de moto sem juros de financiamento.</p>
+          <button class="chip" data-tipo="Moto">Simular</button>
+        </article>
+
+        <article class="typeCard">
+          <div class="typeCard__top">
+            <div class="typeCard__icon">🏠</div>
+            <h3>Imóvel</h3>
+          </div>
+          <p>Casa, apê, terreno ou construção (varia por administradora).</p>
+          <button class="chip" data-tipo="Imóvel">Simular</button>
+        </article>
+
+        <article class="typeCard">
+          <div class="typeCard__top">
+            <div class="typeCard__icon">🛠️</div>
+            <h3>Serviços</h3>
+          </div>
+          <p>Reforma, procedimentos, viagem, estudos (conforme plano).</p>
+          <button class="chip" data-tipo="Serviços">Simular</button>
+        </article>
+
+        <article class="typeCard">
+          <div class="typeCard__top">
+            <div class="typeCard__icon">🚚</div>
+            <h3>Pesados</h3>
+          </div>
+          <p>Utilitários/linha pesada (quando disponível).</p>
+          <button class="chip" data-tipo="Pesados">Simular</button>
+        </article>
+
+        <article class="typeCard">
+          <div class="typeCard__top">
+            <div class="typeCard__icon">💼</div>
+            <h3>Empresarial</h3>
+          </div>
+          <p>Para compras planejadas do negócio/frota (conforme grupo).</p>
+          <button class="chip" data-tipo="Empresarial">Simular</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Como funciona</h2>
+        <p>Passo a passo bem direto.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__n">1</div>
+          <div>
+            <h3>Escolha do plano</h3>
+            <p>Tipo, valor da carta e prazo. Eu te envio opções e explico as regras e taxas.</p>
+            <button class="btn btn--primary" data-acao="Escolher o plano ideal">Quero escolher</button>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__n">2</div>
+          <div>
+            <h3>Assembleias</h3>
+            <p>Você paga mensalmente e participa das assembleias do grupo.</p>
+            <button class="btn btn--primary" data-acao="Entender assembleias do consórcio">Entender</button>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__n">3</div>
+          <div>
+            <h3>Contemplação</h3>
+            <p>Por sorteio ou lance. Dá pra montar estratégia conforme seu objetivo.</p>
+            <button class="btn btn--primary" data-acao="Estratégia de lance e contemplação">Quero estratégia</button>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__n">4</div>
+          <div>
+            <h3>Compra com a carta</h3>
+            <p>Com a carta contemplada, você compra dentro da categoria do plano.</p>
+            <button class="btn btn--primary" data-acao="Como usar a carta de crédito">Como usar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCAL (MAPS) -->
+  <section id="local" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Local físico</h2>
+        <p>Atendimento presencial (e também pelo WhatsApp).</p>
+      </div>
+
+      <div class="contact">
+        <div class="card">
+          <h3 style="margin-top:0">Endereço</h3>
+          <p class="smallText" id="addressText">
+            Rua do Exemplo, 123 — Bairro, Cidade/UF<br/>
+          </p>
+
+          <div class="card__sep"></div>
+
+          <div class="miniGrid">
+            <a class="btn btn--primary" id="mapsBtn" href="#">Abrir no Google Maps</a>
+            <a class="btn btn--ghost" id="routeBtn" href="#">Traçar rota</a>
+          </div>
+
+          <p class="smallNote">Dica: no Maps você pode escolher carro, moto, a pé, etc.</p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Atendimento</h3>
+          <p class="smallText">
+            <b>Vendedor:</b> <span id="sellerName2">Seu Nome Aqui</span><br/>
+            <b>Horário:</b> Seg–Sáb 09:00–18:00
+          </p>
+
+          <div class="card__sep"></div>
+
+          <h3 style="margin-top:0">Quer vir aqui já com a simulação pronta?</h3>
+          <p class="smallText">Me diga tipo, valor da carta e parcela ideal.</p>
+          <a class="btn btn--primary" id="localCta" href="#" style="width:100%;">Simular no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Simulação no WhatsApp</h2>
+        <p>Preencha e eu recebo tudo pronto.</p>
+      </div>
+
+      <div class="contact">
+        <div class="card">
+          <h3 style="margin-top:0">Formulário rápido</h3>
+
+          <form id="contactForm">
+            <div class="grid2">
+              <div>
+                <label>Seu nome</label>
+                <input id="fName" required placeholder="Ex: Isaac" />
+              </div>
+              <div>
+                <label>Tipo de consórcio</label>
+                <select id="fTipo">
+                  <option>Carro</option>
+                  <option>Moto</option>
+                  <option>Imóvel</option>
+                  <option>Serviços</option>
+                  <option>Pesados</option>
+                  <option>Empresarial</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid1">
+              <div>
+                <label>Valor aproximado da carta</label>
+                <input id="fValor" inputmode="numeric" autocomplete="off" placeholder="00.000,00" />
+              </div>
+              <div>
+                <label>Prazo/Parcela desejada</label>
+                <input id="fPrazo" placeholder="Ex: 60x / parcela até R$ 900" />
+              </div>
+
+              <div>
+                <label>Mensagem (opcional)</label>
+                <textarea id="fMsg" rows="3" placeholder="Ex: quero contemplar rápido, posso dar lance..."></textarea>
+              </div>
+
+              <button class="btn btn--primary" type="submit">Enviar no WhatsApp</button>
+              <p class="smallNote">Ao enviar, abre o WhatsApp com a mensagem pronta.</p>
+            </div>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Contato direto</h3>
+          <p class="smallText">
+            <b>Vendedor:</b> <span id="sellerName3">Seu Nome Aqui</span><br/>
+            <b>Atendimento:</b> Seg–Sáb 09:00–18:00
+          </p>
+
+          <div class="card__sep"></div>
+
+          <h3 style="margin-top:0">Checklist da simulação</h3>
+          <ul class="list">
+            <li>✅ Tipo (carro/moto/imóvel...)</li>
+            <li>✅ Valor da carta</li>
+            <li>✅ Parcela que cabe</li>
+            <li>✅ Se quer contemplar rápido (lance)</li>
+          </ul>
+
+          <a class="btn btn--primary" id="contactCta" href="#" style="width:100%; margin-top:12px;">
+            Chamar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <b>Consórcio com Especialista</b>
+        <div class="smallText">© <span id="year"></span> • Atendimento via WhatsApp e presencial</div>
+      </div>
+      <div class="footer__links">
+        <a href="#home">Topo</a>
+        <a href="#local">Local</a>
+        <a href="#contato">Simular</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
