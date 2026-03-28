@@ -24,7 +24,7 @@ const MAPS_ROUTE_URL = "https://www.google.com/maps/dir/?api=1&destination=Rua+E
 function buildMessage({ tipo = "", nome = "", valor = "", prazo = "", acao = "", msg = "" } = {}) {
   const lines = [
     "Olá! Quero uma simulação de consórcio.",
-    tipo ? `Tipo: ${tipo}` : "",
+    tipo ? `Assunto: ${tipo}` : "",
     nome ? `Nome: ${nome}` : "",
     valor ? `Valor da carta: ${valor}` : "",
     prazo ? `Prazo/Parcela: ${prazo}` : "",
