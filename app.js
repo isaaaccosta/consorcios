@@ -8,7 +8,7 @@ const WHATSAPP_NUMBER = "54999625395";
 const SELLER_NAME = "Seu Nome Aqui";
 
 // Endereço do local físico (como você quer que apareça no site)
-const PHYSICAL_ADDRESS_TEXT = "Rua Exemplo, 123 — Centro, Sua Cidade/UF";
+const PHYSICAL_ADDRESS_TEXT = "Rua Exemplo, 123, Centro, Sua Cidade/UF";
 
 // Link do Google Maps do local (pode ser link compartilhado ou pesquisa)
 // Opção 1 (pesquisa): https://www.google.com/maps?q=Rua+Exemplo+123+Sua+Cidade
